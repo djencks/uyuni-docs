@@ -62,7 +62,7 @@ endif::[]
 // PDF Administration Guide
 ifdef::backend-pdf[]
 = Administration Guide: {productname} {productnumber}
-include::./branding/pdf/entities.adoc[]
+include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 3
 
 // License

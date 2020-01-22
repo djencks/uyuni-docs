@@ -19,7 +19,7 @@ endif::[]
 // PDF Upgrade Guide
 ifdef::backend-pdf[]
 = Upgrade Guide: {productname} {productnumber}
-include::./branding/pdf/entities.adoc[]
+include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 2
 :doctype: book
 

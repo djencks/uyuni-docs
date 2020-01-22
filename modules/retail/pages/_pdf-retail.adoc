@@ -36,7 +36,7 @@ endif::[]
 // PDF Retail Guide
 ifdef::backend-pdf[]
 = Retail Guide: {productname} {productnumber}
-include::./branding/pdf/entities.adoc[]
+include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 3
 :doctype: book
 

@@ -32,7 +32,7 @@ endif::[]
 // PDF Salt Guide
 ifdef::backend-pdf[]
 = Salt Guide: {productname} {productnumber}
-include::./branding/pdf/entities.adoc[]
+include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 2
 :doctype: book
 

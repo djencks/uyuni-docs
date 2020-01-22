@@ -222,7 +222,7 @@ endif::[]
 // PDF Reference Manual
 ifdef::backend-pdf[]
 = Reference Manual: {productname} {productnumber}
-include::./branding/pdf/entities.adoc[]
+include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 3
 :doctype: book
 
