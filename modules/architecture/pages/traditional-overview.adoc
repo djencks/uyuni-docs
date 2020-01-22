@@ -6,4 +6,4 @@
 
 
 .The Traditional Stack
-image:dia-traditional-stack.png[]
+image::dia-traditional-stack.png[width=97%]

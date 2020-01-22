@@ -2,6 +2,7 @@
 include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 3
 
+<<<
 include::client-config-overview.adoc[leveloffset=+1]
 
 include::supported-features.adoc[leveloffset=+2]
