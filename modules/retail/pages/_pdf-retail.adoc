@@ -3,6 +3,7 @@ include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 3
 :doctype: book
 
+<<<
 // Retail Guide Introduction
 include::retail-introduction.adoc[leveloffset=+1]
 

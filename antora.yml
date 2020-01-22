@@ -47,4 +47,11 @@ nav:
   #- modules/architecture/nav-architecture-components-guide.adoc
 
 pdfFiles:
+  - upgrade:_pdf-upgrade-guide.adoc
+  - client-configuration:_pdf-client-config-guide.adoc
+  - retail:_pdf-retail.adoc
   - installation:_pdf-installation-guide.adoc
+  - salt:_pdf-salt-guide.adoc
+  - architecture:_pdf-architecture-components-guide.adoc
+  - administration:_pdf-administration-guide.adoc
+  - reference:_pdf-reference-manual.adoc

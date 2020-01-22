@@ -113,7 +113,7 @@ ui:
     snapshot: true
 
     # - uyuni-webui (for gh-pages and WebUI)
-  supplemental_files: ./branding/supplemental-ui/uyuni/uyuni-webui
+  # supplemental_files: ./branding/supplemental-ui/uyuni/uyuni-webui
 output:
   dir: ./build
   clean: true

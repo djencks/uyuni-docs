@@ -3,6 +3,7 @@ include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 2
 :doctype: book
 
+<<<
 // Upgrade Overview
 include::upgrade-overview.adoc[leveloffset=+1]
 
