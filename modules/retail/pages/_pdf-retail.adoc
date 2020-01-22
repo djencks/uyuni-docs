@@ -56,4 +56,3 @@ include::retail-next.adoc[leveloffset=+2]
 
 include::common_gfdl1.2_i.adoc[leveloffset=+2]
 
-endif::[]

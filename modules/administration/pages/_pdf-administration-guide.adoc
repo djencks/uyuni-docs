@@ -97,4 +97,3 @@ include::tshoot-taskomatic.adoc[leveloffset=+2]
 
 // Appendices
 
-endif::[]

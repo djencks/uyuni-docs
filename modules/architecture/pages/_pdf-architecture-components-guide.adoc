@@ -97,4 +97,3 @@ include::salt-minion.adoc[leveloffset=+2]
 
 include::salt-broker.adoc[leveloffset=+2]
 
-endif::[]

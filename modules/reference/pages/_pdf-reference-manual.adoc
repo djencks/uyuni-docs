@@ -401,5 +401,3 @@ include::spacecmd/org_.adoc[leveloffset=+2]
 
 include::spacecmd/package_.adoc[leveloffset=+2]
 
-
-endif::[]
