@@ -102,7 +102,7 @@ content:
 
     # To build locally ensure you have your current local branch listed.
     branches:
-    - 'master'
+    - 'antora-pdf'
 
     # Choose a default-ui to use
     # - uyuni-default.zip (product branding theme OBS)
@@ -116,5 +116,6 @@ ui:
   supplemental_files: ./branding/supplemental-ui/uyuni/uyuni-webui
 output:
   dir: ./build
+  clean: true
 runtime:
   cache_dir: ./.cache/antora
