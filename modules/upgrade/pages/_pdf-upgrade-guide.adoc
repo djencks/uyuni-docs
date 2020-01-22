@@ -24,36 +24,36 @@ include::ROOT:partial$pdf-entities.adoc[]
 :doctype: book
 
 // Upgrade Overview
-include::modules/upgrade/pages/upgrade-overview.adoc[leveloffset=+1]
+include::upgrade-overview.adoc[leveloffset=+1]
 
 // Server Update
-include::modules/upgrade/pages/server-update.adoc[leveloffset=+1]
+include::server-update.adoc[leveloffset=+1]
 
 // Migration from Version 3x to 4x
-include::modules/upgrade/pages/migrate-3x-4x.adoc[leveloffset=+1]
+include::migrate-3x-4x.adoc[leveloffset=+1]
 
 // Migration from Version 4x to 4x
-include::modules/upgrade/pages/migrate-4x-4x.adoc[leveloffset=+1]
+include::migrate-4x-4x.adoc[leveloffset=+1]
 
 // Proxy Update
-include::modules/upgrade/pages/proxy-update.adoc[leveloffset=+1]
+include::proxy-update.adoc[leveloffset=+1]
 
 // Proxy Migration
-include::modules/upgrade/pages/proxy-migration.adoc[leveloffset=+1]
+include::proxy-migration.adoc[leveloffset=+1]
 
 // Client Migration
-include::modules/upgrade/pages/client-migration.adoc[leveloffset=+1]
+include::client-migration.adoc[leveloffset=+1]
 
 // Database Migration
-include::modules/upgrade/pages/db-migration.adoc[leveloffset=+1]
+include::db-migration.adoc[leveloffset=+1]
 
 // Troubleshooting Upgrades and Migrations
-include::modules/upgrade/pages/troubleshooting.adoc[leveloffset=+1]
+include::troubleshooting.adoc[leveloffset=+1]
 
 // Upgrade Script Example
-include::modules/upgrade/pages/upgrade-script-example.adoc[leveloffset=+1]
+include::upgrade-script-example.adoc[leveloffset=+1]
 
 // License
-include::modules/upgrade/pages/common_gfdl1.2_i.adoc[leveloffset=+1]
+include::common_gfdl1.2_i.adoc[leveloffset=+1]
 
 endif::[]

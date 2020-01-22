@@ -41,56 +41,56 @@ include::ROOT:partial$pdf-entities.adoc[]
 :doctype: book
 
 // Retail Guide Introduction
-include::modules/retail/pages/retail-introduction.adoc[leveloffset=+1]
+include::retail-introduction.adoc[leveloffset=+1]
 
-include::modules/retail/pages/retail-components.adoc[leveloffset=+2]
+include::retail-components.adoc[leveloffset=+2]
 
 // Installation
-include::modules/retail/pages/retail-install.adoc[leveloffset=+2]
+include::retail-install.adoc[leveloffset=+2]
 
-include::modules/retail/pages/retail-requirements.adoc[leveloffset=+3]
+include::retail-requirements.adoc[leveloffset=+3]
 
-include::modules/retail/pages/retail-install-unified.adoc[leveloffset=+3]
+include::retail-install-unified.adoc[leveloffset=+3]
 
 // FIXME: needs research, 2019-07-23, ke:
-// include::modules/retail/pages/retail-install-packages.adoc[leveloffset=+3]
+// include::retail-install-packages.adoc[leveloffset=+3]
 
-include::modules/retail/pages/retail-network-arch.adoc[leveloffset=+3]
+include::retail-network-arch.adoc[leveloffset=+3]
 
-include::modules/retail/pages/retail-install-setup.adoc[leveloffset=+3]
+include::retail-install-setup.adoc[leveloffset=+3]
 
 // Terminal Ops
 
-include::modules/retail/pages/retail-deploy-terminals.adoc[leveloffset=+2]
+include::retail-deploy-terminals.adoc[leveloffset=+2]
 
-include::modules/retail/pages/retail-saltboot-diagram.adoc[leveloffset=+3]
+include::retail-saltboot-diagram.adoc[leveloffset=+3]
 
-include::modules/retail/pages/retail-terminal-names.adoc[leveloffset=+3]
+include::retail-terminal-names.adoc[leveloffset=+3]
 
-include::modules/retail/pages/retail-terminal-ratelimiting.adoc[leveloffset=+3]
+include::retail-terminal-ratelimiting.adoc[leveloffset=+3]
 
 // Formulas
-include::modules/retail/pages/retail-formulas-intro.adoc[leveloffset=+2]
+include::retail-formulas-intro.adoc[leveloffset=+2]
 
 // Admin
-include::modules/retail/pages/retail-admin.adoc[leveloffset=+2]
+include::retail-admin.adoc[leveloffset=+2]
 
-include::modules/retail/pages/retail-mass-config.adoc[leveloffset=+3]
+include::retail-mass-config.adoc[leveloffset=+3]
 
-include::modules/retail/pages/retail-mass-config-yaml.adoc[leveloffset=+3]
+include::retail-mass-config-yaml.adoc[leveloffset=+3]
 
-include::modules/retail/pages/retail-delta-images.adoc[leveloffset=+3]
+include::retail-delta-images.adoc[leveloffset=+3]
 
 // Retail Upgrade
-include::modules/retail/pages/retail-migration-intro.adoc[leveloffset=+1]
+include::retail-migration-intro.adoc[leveloffset=+1]
 
-include::modules/retail/pages/retail-prepare-migration.adoc[leveloffset=+2]
+include::retail-prepare-migration.adoc[leveloffset=+2]
 
-include::modules/retail/pages/retail-migration-slepostosuma.adoc[leveloffset=+2]
+include::retail-migration-slepostosuma.adoc[leveloffset=+2]
 
 //End matter
-include::modules/retail/pages/retail-next.adoc[leveloffset=+2]
+include::retail-next.adoc[leveloffset=+2]
 
-include::modules/retail/pages/common_gfdl1.2_i.adoc[leveloffset=+2]
+include::common_gfdl1.2_i.adoc[leveloffset=+2]
 
 endif::[]

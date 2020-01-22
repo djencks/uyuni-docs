@@ -58,98 +58,98 @@ include::ROOT:partial$pdf-entities.adoc[]
 :toclevels: 2
 
 // License
-include::modules/architecture/pages/common_gfdl1.2_i.adoc[leveloffset=+1]
+include::common_gfdl1.2_i.adoc[leveloffset=+1]
 
 // Introduction
-include::modules/architecture/pages/architecture-intro.adoc[leveloffset=+1]
+include::architecture-intro.adoc[leveloffset=+1]
 
 // Legend
-include::modules/architecture/pages/architecture-legend.adoc[leveloffset=+1]
+include::architecture-legend.adoc[leveloffset=+1]
 
 == Salt Architecture
 
-include::modules/architecture/pages/salt-overview.adoc[leveloffset=+2]
+include::salt-overview.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-core-components.adoc[leveloffset=+2]
+include::salt-core-components.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-data-locations.adoc[leveloffset=+2]
+include::salt-data-locations.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-contact-method-overview.adoc[leveloffset=+2]
+include::salt-contact-method-overview.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-pull.adoc[leveloffset=+2]
+include::salt-pull.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-ssh-push.adoc[leveloffset=+2]
+include::salt-ssh-push.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-ssh-push-tunnel.adoc[leveloffset=+2]
+include::salt-ssh-push-tunnel.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-bootstrapping-ui.adoc[leveloffset=+2]
+include::salt-bootstrapping-ui.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-onboarding-and-registration.adoc[leveloffset=+2]
+include::salt-onboarding-and-registration.adoc[leveloffset=+2]
 
 == Traditional Architecture
 
-include::modules/architecture/pages/traditional-overview.adoc[leveloffset=+2]
+include::traditional-overview.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/traditional-contact-method-overview.adoc[leveloffset=+2]
+include::traditional-contact-method-overview.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/traditional-rhnsd.adoc[leveloffset=+2]
+include::traditional-rhnsd.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/traditional-osad.adoc[leveloffset=+2]
+include::traditional-osad.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/traditional-ssh-push.adoc[leveloffset=+2]
+include::traditional-ssh-push.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/traditional-ssh-pull.adoc[leveloffset=+2]
+include::traditional-ssh-pull.adoc[leveloffset=+2]
 
 == Repositories
 
-include::modules/architecture/pages/repositories-overview.adoc[leveloffset=+2]
+include::repositories-overview.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/pool-repositories.adoc[leveloffset=+2]
+include::pool-repositories.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/devel-repositories.adoc[leveloffset=+2]
+include::devel-repositories.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/tools-repositories.adoc[leveloffset=+2]
+include::tools-repositories.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/maintenance-repositories.adoc[leveloffset=+2]
+include::maintenance-repositories.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/syncing-repositories.adoc[leveloffset=+2]
+include::syncing-repositories.adoc[leveloffset=+2]
 
 == Component Index
 
-include::modules/architecture/pages/components-overview.adoc[leveloffset=+2]
+include::components-overview.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/apache.adoc[leveloffset=+2]
+include::apache.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/tomcat.adoc[leveloffset=+2]
+include::tomcat.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/python-xmlrpc-server.adoc[leveloffset=+2]
+include::python-xmlrpc-server.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/taskomatic.adoc[leveloffset=+2]
+include::taskomatic.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/database.adoc[leveloffset=+2]
+include::database.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/mgr-sync.adoc[leveloffset=+2]
+include::mgr-sync.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/spacewalk-repo-sync.adoc[leveloffset=+2]
+include::spacewalk-repo-sync.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/osa-dispatcher.adoc[leveloffset=+2]
+include::osa-dispatcher.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/jabberd.adoc[leveloffset=+2]
+include::jabberd.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/mgr_check.adoc[leveloffset=+2]
+include::mgr_check.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/plugin-zypp-spacewalk.adoc[leveloffset=+2]
+include::plugin-zypp-spacewalk.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/rhnsd.adoc[leveloffset=+2]
+include::rhnsd.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/osad.adoc[leveloffset=+2]
+include::osad.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-master.adoc[leveloffset=+2]
+include::salt-master.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-api.adoc[leveloffset=+2]
+include::salt-api.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-minion.adoc[leveloffset=+2]
+include::salt-minion.adoc[leveloffset=+2]
 
-include::modules/architecture/pages/salt-broker.adoc[leveloffset=+2]
+include::salt-broker.adoc[leveloffset=+2]
 
 endif::[]
