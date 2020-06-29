@@ -6,7 +6,7 @@ It is the default page when you use the {productname} {webui} for the first time
 
 [[setup-wizard-options]]
 .Setup Wizard Options
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 |===
 | Option             | Description
 | HTTP Proxy         | Configure an HTTP proxy connection.

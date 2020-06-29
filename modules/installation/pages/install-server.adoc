@@ -12,7 +12,7 @@ A kernel virtual machine KVM combined with Virtual Machine Manager ([command]``v
 
 Enter the following settings when creating a new virtual machine using [command]``virt-manager`` (replace [replaceable]``version`` with the actual version string):
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 |===
 | KVM Settings for SLES
 | Installation Method: | Local install media (ISO image or CDROM)
@@ -49,7 +49,7 @@ This section assumes you have previously setup an account with SCC and downloade
     During the partitioning setup of the SLES installation this disk should be partitioned into the following disks:
 +
 
-[cols="1", options="header"]
+[cols="1", options="header",separator=|]
 |===
 | Disk Space Requirements
 |4{nbsp}GB Swap space

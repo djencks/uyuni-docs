@@ -31,7 +31,7 @@ Before you begin, check that your environment meets the base system requirements
 * LinuxOne Emperor
 
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Hardware Requirements
 |===
 | Hardware     | Recommended

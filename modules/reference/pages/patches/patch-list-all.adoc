@@ -9,7 +9,7 @@ Click the advisory number to see more information about the patch.
 
 
 [[patch-status-icons]]
-[cols="1a,1,1", options="header"]
+[cols="1a,1,1", options="header",separator=|]
 .Patch Status Icons
 |===
 | Icon | Description | Action Required

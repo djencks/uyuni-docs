@@ -7,7 +7,7 @@ The menu:Home[My Preferences] section allows you to configure {productname} {web
 
 [[home-preferences]]
 .Home Preferences
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Option                | Description   | Default
 | Email Notification    | Receive email for client and Taskomatic notifications, including a daily summary email. | Checked

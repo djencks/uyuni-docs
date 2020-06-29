@@ -5,7 +5,7 @@ The menu:Admin[Manager Configuration] section contains tabs to allow you to conf
 
 [[configuration-options]]
 .Configuration Options
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 |===
 | Option             | Description
 | General            | Configure your {productname} installation.

@@ -61,7 +61,7 @@ ifeval::[{suma-content} == true]
 The products you need for this procedure are:
 
 [[es-channels-wizard]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .ES Products - WebUI
 |===
 
@@ -102,7 +102,7 @@ ifeval::[{uyuni-content} == true]
 The channels you need for this procedure are:
 
 [[es-channels-cli]]
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .ES Channels - CLI
 |===
 

@@ -10,7 +10,7 @@ Click btn:[Refresh] to update the list.
 Click the name of a client to go to menu:Systems[Details] for that client.
 
 [[salt-keys-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Salt Keys List Columns
 |===
 | Column      | Description

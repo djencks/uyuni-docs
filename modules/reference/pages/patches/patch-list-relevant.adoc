@@ -9,7 +9,7 @@ For more information about the menu:Patches[Patch List > Patch Details] section,
 
 
 [[patch-status]]
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 .Patch Status Icons
 |===
 | Icon | Description | Action Required

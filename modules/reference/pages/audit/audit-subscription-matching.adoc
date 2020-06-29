@@ -6,7 +6,7 @@ Subscription matching reports provide information about clients that do not have
 
 
 [[subscription-matching-options]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Subscription Matching Options
 |===
 | Column          | Description
@@ -27,7 +27,7 @@ Table entries that have already expired are shown in grayscale.
 For messages relating to subscription matching, navigate to the [guimenu]``Messages`` tab.
 
 [[subscription-matching-status]]
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 .Subscription Matching Statuses
 |===
 | Status                  | Description | Action
@@ -42,7 +42,7 @@ For Linux-based hosts using ``libvirt``, check that the host is registered, and 
 To pin clients to a particular subscription, navigate to the [guimenu]``Pins`` tab.
 
 [[pin-status]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Pin Statuses
 |===
 | Status                  | Description

@@ -18,7 +18,7 @@ The products you need for this procedure are:
 ifeval::[{suma-content} == true]
 
 [[opensuse-channels-wizard]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .OpenSUSE Products - WebUI
 |===
 
@@ -54,7 +54,7 @@ endif::[]
 
 ifeval::[{uyuni-content} == true]
 [[opensuse-channels-cli]]
-[cols="1,1,1,1,1", options="header"]
+[cols="1,1,1,1,1", options="header",separator=|]
 .OpenSUSE Channels - CLI
 |===
 

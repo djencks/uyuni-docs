@@ -47,7 +47,7 @@ For the most up-to-date version of this documentation, see https://documentation
 Download All PDFs icon:caret-right[] icon:file-archive[link="../susemanager-docs_en-pdf.tar.gz"]
 
 
-[cols="<, ^,<,^", options="header"]
+[cols="<, ^,<,^", options="header",separator=|]
 |===
 | View HTML | View PDF | View HTML | View PDF
 
@@ -76,7 +76,7 @@ The following documentation is available for {productname} version {productnumbe
 Download All PDFs icon:caret-right[] icon:file-archive[link="../uyuni-docs_en-pdf.tar.gz"]
 
 
-[cols="<, ^,<,^", options="header"]
+[cols="<, ^,<,^", options="header",separator=|]
 |===
 | View HTML | View PDF | View HTML | View PDF
 

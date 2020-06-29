@@ -17,7 +17,7 @@ It can be used for other products, including openSUSE, Fedora, and {oracle}.
 ////
 
 [[distribution-channel-map-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Distribution Channel Mapping Columns
 |===
 | Column                | Description

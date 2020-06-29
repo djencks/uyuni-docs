@@ -24,7 +24,7 @@ If you want to use a production environment, review the requirements listed in x
 In the following table replace _version_ with the actual product version string.
 Find the JeOS image at https://download.suse.com/.
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 |===
 2+<| KVM Settings
 | Installation Method | Import Existing Disk Image
@@ -70,7 +70,7 @@ Also consider to create a separate partition for [path]``/srv`` where Kiwi image
 ====
 +
 
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | VirtIO Storage Disks | Name      | Sizing
 | VirtIO Disk 2        | spacewalk | 101{nbsp}GB
@@ -156,7 +156,7 @@ Especially [path]``/var/spacewalk/`` may quickly need more space.
 Also consider to create a separate partition for [path]``/srv`` where Kiwi images are stored.
 ====
 
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 |===
 | VirtIO Storage Disks | Name                     | Storage Size | File System Type
 | VirtIO Disk 2        | [path]``/var/spacewalk`` | 101{nbsp}GB  | XFS

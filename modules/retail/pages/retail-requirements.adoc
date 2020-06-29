@@ -24,7 +24,7 @@ endif::[]
 
 == Server Requirements
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Hardware Requirements for {productname} Server
 |===
 | Hardware                 | Recommended
@@ -46,7 +46,7 @@ endif::[]
 
 == Branch Server Requirements
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Hardware Requirements for Branch Server
 |===
 | Hardware                 | Recommended
@@ -62,7 +62,7 @@ endif::[]
 
 == Build Host Requirements
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Hardware Requirements for Build Host
 |===
 | Hardware                 | Recommended

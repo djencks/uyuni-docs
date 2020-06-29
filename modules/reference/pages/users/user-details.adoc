@@ -9,7 +9,7 @@ Configure preference settings for users by navigating to the [guimenu]``Preferen
 
 [[user-preferences]]
 .User Preferences
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Option                | Description   | Default
 | Email Notification    | Receive email for client and Taskomatic notifications, including a daily summary email. | Checked

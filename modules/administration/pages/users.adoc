@@ -34,7 +34,7 @@ Users can hold multiple administrator roles, and there can  be more than one use
 There must always be at least one active {productname} Administrator.
 
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .User Administrator Role Permissions
 |===
 | Role Name | Description

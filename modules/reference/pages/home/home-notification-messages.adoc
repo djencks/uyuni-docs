@@ -16,7 +16,7 @@ Click btn:[Mark selected as read] to bulk read messages.
 
 [[message-severity-status]]
 .Notification Message Severity Statuses
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Icon               | Description   | Example
 | icon:info-circle[role="none"] | Information | Client onboarding has failed.

@@ -16,7 +16,7 @@ For non-{suse} operating systems, including {rhel}, {centos}, and {oracle}, only
 
 
 [[mgr.supported.clients]]
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .Supported Client Systems
 |===
 
@@ -133,7 +133,7 @@ When you are setting up your client hardware, you need to ensure you have enough
 
 
 [[clients.hw.reqs]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Client Additional Hardware Requirements
 |===
 | Hardware               | Additional Size Required

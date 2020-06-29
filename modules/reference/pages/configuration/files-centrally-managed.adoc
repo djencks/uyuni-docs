@@ -13,7 +13,7 @@ Path	Configuration Channel	Systems Subscribed*	Systems Overriding
 /etc/apache2/conf.d/cobbler-proxy.conf 	rhn_proxy_config_1000010000 	1 system 	(none)
 ////
 [[config-centrallyfiles-list-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Centrally Managed Files Columns
 |===
 | Column                | Description

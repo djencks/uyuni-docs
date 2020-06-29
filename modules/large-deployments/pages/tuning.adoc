@@ -120,7 +120,7 @@ This section contains information about the available parameters.
 [[max-clients]]
 === `MaxClients`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The maximum number of HTTP requests served simultaneously by Apache httpd.
                          Proxies, {webui}, and XMLRPC API clients each consume one.
@@ -140,7 +140,7 @@ This section contains information about the available parameters.
 [[server-limit]]
 === `ServerLimit`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The number of Apache httpd processes serving HTTP requests simultaneously.
                          The number must equal xref:max-clients[`MaxClients`].
@@ -157,7 +157,7 @@ This section contains information about the available parameters.
 [[max-threads]]
 === `maxThreads`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The number of Tomcat threads dedicated to serving HTTP requests
 | Tune when            | xref:max-clients[`MaxClients`] changes.
@@ -174,7 +174,7 @@ This section contains information about the available parameters.
 [[tomcat-xmx]]
 === Tomcat's `-Xmx`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The maximum amount of memory Tomcat can use
 | Tune when            | xref:java-message-queue-thread-pool-size[`java.message_queue_thread_pool_size`] is increased or
@@ -192,7 +192,7 @@ This section contains information about the available parameters.
 [[java-message-queue-thread-pool-size]]
 === `java.message_queue_thread_pool_size`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The maximum number of threads in Tomcat dedicated to asynchronous operations, including handling of incoming Salt events
 | Tune when            | xref:client-count[Client count] increases significantly
@@ -211,7 +211,7 @@ This section contains information about the available parameters.
 [[java-salt-batch-size]]
 === `java.salt_batch_size`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The maximum number of minions concurrently executing a scheduled action.
 | Tune when            | xref:client-count[Client count] reaches several thousands and actions are not executed quickly enough.
@@ -229,7 +229,7 @@ This section contains information about the available parameters.
 [[java-salt-presence-ping-timeout]]
 === `java.salt_presence_ping_timeout`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Before any action is executed on a client, a presence ping is executed to make sure the client is reachable.
                          This parameter sets the amount of time before a second command (`find_job`) is sent to the client to verify its presence.
@@ -248,7 +248,7 @@ This section contains information about the available parameters.
 [[java-salt-presence-ping-gather-job-timeout]]
 === `java.salt_presence_ping_gather_job_timeout`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Before any action is executed on a client, a presence ping is executed to make sure the client is reachable.
                          After xref:java-salt-presence-ping-timeout[`java.salt_presence_ping_timeout`] seconds have elapsed without a response, a second command (`find_job`) is sent to the client for a final check.
@@ -268,7 +268,7 @@ This section contains information about the available parameters.
 [[java-taskomatic-channel-repodata-workers]]
 === `java.taskomatic_channel_repodata_workers`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Whenever content is changed in a software channel, its metadata needs to be recomputed before clients can use it.
                          Channel-altering operations include the addition of a patch, the removal of a package or a repository synchronization run.
@@ -288,7 +288,7 @@ This section contains information about the available parameters.
 [[taskomatic-java-maxmemory]]
 === `taskomatic.java.maxmemory`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The maximum amount of memory Taskomatic can use.
                          Generation of metadata, especially for some OSs, can be memory-intensive, so this parameter might need raising depending on the managed xref:os-mix[OS mix].
@@ -306,7 +306,7 @@ This section contains information about the available parameters.
 [[org-quartz-threadPool-threadCount]]
 === `org.quartz.threadPool.threadCount`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The number of Taskomatic worker threads.
                          Increasing this value allows Taskomatic to serve more clients in parallel.
@@ -324,7 +324,7 @@ This section contains information about the available parameters.
 [[org-quartz-scheduler-idleWaitTime]]
 === `org.quartz.scheduler.idleWaitTime`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Cycle time for Taskomatic.
                          Decreasing this value lowers the latency of Taskomatic.
@@ -341,7 +341,7 @@ This section contains information about the available parameters.
 [[MinionActionExecutor-parallel-threads]]
 === `MinionActionExecutor.parallel_threads`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Number of Taskomatic threads dedicated to sending commands to Salt clients as a result of actions being executed.
 | Tune when            | xref:client-count[Client count] is in the thousands.
@@ -368,7 +368,7 @@ This section contains information about the available parameters.
 [[hibernate-c3p0-max-size]]
 === `hibernate.c3p0.max_size`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Maximum number of PostgreSQL connections simultaneously available to both Tomcat and Taskomatic.
                          If any of those components requires more concurrent connections, their requests will be queued.
@@ -387,7 +387,7 @@ This section contains information about the available parameters.
 [[rhn-search-java-maxmemory]]
 === `rhn-search.java.maxmemory`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The maximum amount of memory that the `rhn-search` service can use.
 | Tune when            | xref:client-count[Client count] increases significantly, and `OutOfMemoryException` errors appear in `journalctl -u rhn-search`.
@@ -403,7 +403,7 @@ This section contains information about the available parameters.
 [[shared-buffers]]
 === `shared_buffers`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The amount of memory reserved for PostgreSQL shared buffers, which contain caches of database tables and index data.
 | Tune when            | RAM changes
@@ -420,7 +420,7 @@ This section contains information about the available parameters.
 [[max-connections]]
 === `max_connections`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Maximum number of PostgreSQL connections available to applications.
                          More connections allow for more concurrent threads/workers in various components (in particular Tomcat and Taskomatic), which generally improves performance.
@@ -440,7 +440,7 @@ This section contains information about the available parameters.
 [[work-mem]]
 === `work_mem`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The amount of memory allocated by PostgreSQL every time a connection needs to do a sort or hash operation.
                          Every connection (as specified by xref:max-connections[`max_connections`]) might make use of an amount of memory equal to a multiple of `work_mem`.
@@ -459,7 +459,7 @@ If you see lines containing ``LOG:  temporary file:`` try raising this parameter
 [[effective-cache-size]]
 === `effective_cache_size`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Estimation of the total memory available to PostgreSQL for caching.
                          It is the explicitly reserved memory (xref:shared-buffers[`shared_buffers`]) plus any memory used by the kernel as cache/buffer.
@@ -479,7 +479,7 @@ If you see lines containing ``LOG:  temporary file:`` try raising this parameter
 [[thread-pool]]
 === `thread_pool`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The number of worker threads serving Salt API HTTP requests.
                          A higher number can improve parallelism of {productname} Server-initiated Salt operations, but will consume more memory.
@@ -498,7 +498,7 @@ If you see lines containing ``LOG:  temporary file:`` try raising this parameter
 [[worker-threads]]
 === `worker_threads`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The number of `salt-master` worker threads that process commands and replies from minions and the Salt API.
                          Increasing this value, assuming sufficient resources are available, allows Salt to process more data in parallel from minions without timing out, but will consume significantly more RAM (typically about 70 MiB per thread).
@@ -549,7 +549,7 @@ If you see lines containing ``LOG:  temporary file:`` try raising this parameter
 [[swappiness]]
 === `swappiness`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | How aggressively the kernel moves unused data from memory to the swap partition.
                          Setting a lower parameter typically reduces swap usage and results in better performance, especially when RAM memory is abundant.

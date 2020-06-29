@@ -12,7 +12,7 @@ In this section, we use a KVM and a virtual machine manager as a sandbox for the
 
 Use these settings to create a new virtual machine with [command]``virt-manager`` (replace [literal]``<version>`` with the actual version string):
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 |===
 | KVM Settings for SLES
 | Installation Method: | Local install media (ISO image or CDROM)
@@ -52,7 +52,7 @@ Before you begin, you will need to have created an account with {scc}, and downl
 // |4{nbsp}GB Swap space
 // Can we move this table out of the procedure? --LKB 2020-04-16
 +
-[cols="1", options="header"]
+[cols="1", options="header",separator=|]
 |===
 | Disk Space Requirements
 | 100{nbsp}GB XFS partition (or dedicated virtual disk) for [path]``/srv/``

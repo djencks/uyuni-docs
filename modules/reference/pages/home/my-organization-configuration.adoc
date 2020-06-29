@@ -5,7 +5,7 @@ The menu:Home[My Organization > Configuration] section allows you to configure y
 
 [[org-config-options]]
 .Organization Configuration Options
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Option                            | Description   | Default
 | Enable staging contents | For clients in this organization, allow content staging by default. | Unchecked

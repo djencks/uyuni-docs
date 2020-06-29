@@ -9,7 +9,7 @@ If you archive a pending action, it is not canceled, but the action item moves f
 
 
 [[actions-list-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Actions List Columns
 |===
 | Column         | Description

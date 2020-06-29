@@ -6,7 +6,7 @@ The menu:Audit[OpenSCAP] section displays the results of OpenSCAP scans that you
 ￼The Security Certification and Authorization Package (SCAP) is a standardized compliance checking solution for enterprise-level Linux infrastructures.
 
 [[openscap-scan-details]]
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 .OpenSCAP Scan Details
 |===
 | Name          | Description | Evaluation Results

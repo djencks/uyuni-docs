@@ -41,7 +41,7 @@ ifeval::[{suma-content} == true]
 The products you need for this procedure are:
 
 [[ubuntu-old-channels-wizard]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Ubuntu Products - WebUI
 |===
 | OS Version     | Product Name
@@ -55,7 +55,7 @@ Alternatively, you can add channels at the command prompt.
 The channels you need for this procedure are:
 
 [[ubuntu-old-channels-cli]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Ubuntu Channels - CLI
 |===
 | OS Version | Base Channel
@@ -72,7 +72,7 @@ ifeval::[{suma-content} == true]
 The channels you need for this procedure are:
 
 [[ubuntu-old-channels-cli-suma]]
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .Ubuntu Channels - CLI
 |===
 
@@ -113,7 +113,7 @@ ifeval::[{uyuni-content} == true]
 The channels you need for this procedure are:
 // Why are there so many of these?! Maybe better as a bulleted list? Although then it's different to all the others. Sigh. --LKB 2020-06-11
 [[ubuntu-old-channels-cli-uyuni]]
-[cols="1,1,1,1,1,1,1,1", options="header"]
+[cols="1,1,1,1,1,1,1,1", options="header",separator=|]
 .Ubuntu Channels - CLI
 |===
 

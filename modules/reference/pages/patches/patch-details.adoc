@@ -44,7 +44,7 @@ Click the name of a status in the list to go to the [guimenu]``Action Details`` 
 
 
 [[client-update-status]]
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 .Client Update Status Icons
 |===
 | Description | Action Required

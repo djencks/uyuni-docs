@@ -14,7 +14,7 @@ Perform bulk actions by checking images in the list.
 Click btn:[Delete] to bulk delete images.
 
 [[image-list-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Image List Columns
 |===
 | Column               | Description

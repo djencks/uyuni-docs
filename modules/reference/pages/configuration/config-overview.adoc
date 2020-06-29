@@ -37,7 +37,7 @@ Filename	Configuration Channel	Modified
 ////
 +
 [[config-recentfiles-list-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Recently Modified Configuration Files Columns
 |===
 | Column               | Description
@@ -69,7 +69,7 @@ d104.suse.de 	1 file 	admin 	5/28/20 7:47:00 AM CEST 	Queued
 // FIXME: add missing status variants
 +
 [[config-scheduledfiles-list-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Scheduled Configuration File Deployments Columns
 |===
 | Column               | Description

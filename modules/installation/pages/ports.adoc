@@ -19,7 +19,7 @@ External inbound ports must be opened to configure a firewall on the {productnam
 Opening these ports allows external network traffic to access the {productname} Server.
 
 
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .External Port Requirements for {productname} Server
 |===
 | Port number | Protocol | Used By | Notes
@@ -46,7 +46,7 @@ External outbound ports must be opened to configure a firewall on the {productna
 
 Opening these ports allows network traffic from the {productname} Server to communicate with external services.
 
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .External Port Requirements for {productname} Server
 |===
 | Port number | Protocol | Used By | Notes
@@ -66,7 +66,7 @@ Internal ports are only accessible from ``localhost``.
 
 In most cases, you will not need to adjust these ports.
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Internal Port Requirements for {productname} Server
 |===
 | Port number | Notes
@@ -97,7 +97,7 @@ External inbound ports must be opened to configure a firewall on the {productnam
 
 Opening these ports allows external network traffic to access the {productname} proxy.
 
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .External Port Requirements for {productname} Proxy
 |===
 | Port number | Protocol | Used By | Notes
@@ -122,7 +122,7 @@ External outbound ports must be opened to configure a firewall on the {productna
 
 Opening these ports allows network traffic from the {productname} Proxy to communicate with external services.
 
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .External Port Requirements for {productname} Proxy
 |===
 | Port number | Protocol | Used By | Notes
@@ -139,7 +139,7 @@ External client ports must be opened to configure a firewall between the {produc
 
 In most cases, you will not need to adjust these ports.
 
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .External Port Requirements for {productname} Clients
 |===
 | Port number | Direction | Protocol | Notes

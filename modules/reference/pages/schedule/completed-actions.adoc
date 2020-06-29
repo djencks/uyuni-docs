@@ -7,7 +7,7 @@ Archive completed actions by checking the action in the list, and clicking btn:[
 
 
 [[completed-actions-list-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Completed Actions List Columns
 |===
 | Column         | Description

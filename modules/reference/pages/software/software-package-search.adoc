@@ -6,7 +6,7 @@ The menu:Software[Package Search] section allows you to search all packages.
 Enter your search term in the [guimenu]``Search For`` field.
 
 [[what-search-options]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .What to Search Options
 |===
 | Option               | Description
@@ -24,7 +24,7 @@ Check the [guimenu]``Packages of a specific architecture`` to search only for a 
 You can perform more specific searches by using keywords in the [guimenu]``Search For`` field and selecting the [guimenu]``Free Form`` option.
 
 [[keyword-search-options]]
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 .Keyword Search Options
 |===
 | Keyword     | Description | Example

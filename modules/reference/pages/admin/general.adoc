@@ -5,7 +5,7 @@ On the menu:Admin[Manager Configuration > General] page you can configure your {
 
 [[general-settings-options]]
 .Bootstrap Script Options
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Option                       | Description   | Default
 | Administrator Email Address  | Email address of the {productname} administrator. | Pre-populated

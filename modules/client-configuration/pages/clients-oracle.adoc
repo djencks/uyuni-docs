@@ -28,7 +28,7 @@ ifeval::[{suma-content} == true]
 The products you need for this procedure are:
 
 [[oracle-channels-wizard]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Oracle Products - WebUI
 |===
 | OS Version | Product Name
@@ -61,7 +61,7 @@ ifeval::[{uyuni-content} == true]
 The channels you need for this procedure are:
 
 [[oracle-channels-uyuni-cli]]
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .Oracle Channels - CLI
 |===
 

@@ -27,7 +27,7 @@ This table lists the available reports:
 
 [[tab.bp.troubleshooting.spacewalk-report]]
 .[command]``spacewalk-report`` Reports
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 |Report | Invoked as | Description
 | Actions | [command]``actions`` | All actions.

@@ -85,7 +85,7 @@ An administrator account is created by default.
 The username and password varies depending on your provider.
 
 .Default Administrator Account Details
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Provider              | Default Username  | Default Password
 | Amazon EC2            | ``admin``         | ``<instance-ID>``

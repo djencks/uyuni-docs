@@ -5,7 +5,7 @@ The menu:Images[Build] section allows you to build operating system images for i
 
 [[image-build-options]]
 .Image Build Options
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Option        | Description   | Default
 | Image Profile | Select the image profile to use.
