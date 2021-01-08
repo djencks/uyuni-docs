@@ -19,7 +19,7 @@ This section displays ther results of openSCAP scans that have been performed on
 The table columns on this page are:
 
 [[openscap-scan-results]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .OpenSCAP Scan Results
 |===
 | Name              | Description

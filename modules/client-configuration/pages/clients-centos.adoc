@@ -47,7 +47,7 @@ Alternatively, you can add channels at the command prompt.
 The channels you need for this procedure are:
 
 [[centos-channels-suma-cli]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .CentOS Channels - CLI
 |===
 | OS Version | Base Channel
@@ -63,13 +63,8 @@ endif::[]
 ifeval::[{uyuni-content} == true]
 The channels you need for this procedure are:
 
-<<<<<<< HEAD
 [[centos-channels-uyuni-cli]]
-[cols="1,1,1,1", options="header"]
-=======
-[[centos-channels-cli]]
 [cols="1,1,1,1", options="header",separator=|]
->>>>>>> 55ecd658... add 'separator=|' to all table declarations
 .CentOS Channels - CLI
 |===
 | OS Version | Base Channel | Client Channel       | Updates Channel

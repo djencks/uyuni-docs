@@ -27,7 +27,7 @@ Local repositories are disabled during onboarding.
 After a client has completed onboarding, you can add local repositories to these locations:
 
 [[local-repo-locations]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Local Repository Locations
 |===
 | Client Operating System | Local Repository Directory

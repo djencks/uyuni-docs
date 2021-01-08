@@ -15,7 +15,7 @@ The icons in this table indicate:
 * {question} this action is under consideration for this client type, and may or may not be supported at a later date.
 
 .Available SSM Actions
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Action                    | Traditional   | Salt
 | List systems              | {check}       | {check}

@@ -18,7 +18,7 @@ This is only available when the selected client is registered as a virtual host.
 The list shows these columns:
 
 [[virt-guest-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Virtual Guest List Columns
 |===
 | Column            | Description
@@ -54,7 +54,7 @@ This is only available when the selected client is registered as a Salt virtual 
 The list shows these columns:
 
 [[virt-pool-columns]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Virtual Storage Pools List Columns
 |===
 | Column            | Description

@@ -21,7 +21,7 @@ Before you register {sle} clients to your {productname} Server, you need to add 
 The products you need for this procedure are:
 
 [[sle-channels-wizard]]
-[cols="1,1", options="header"]
+[cols="1,1",options="header",separator=|]
 .SLE Products - WebUI
 |===
 
@@ -45,7 +45,7 @@ Alternatively, you can add channels at the command prompt.
 The channels you need for this procedure are:
 
 [[sle-channels-cli]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .SLE Products - CLI
 |===
 
@@ -72,7 +72,7 @@ ifeval::[{uyuni-content} == true]
 To add the client tools, add these channels from the command prompt:
 
 [[opensuse-channels-cli]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .OpenSUSE Channels - CLI
 |===
 

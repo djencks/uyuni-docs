@@ -83,7 +83,7 @@ The products you need for this procedure are:
 This procedure creates these tools channels:
 
 [[es-channels-tools]]
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 .ES Tools Channels
 |===
 | OS Version | Base Channel                     | Tools Channel
@@ -186,7 +186,7 @@ Alternatively, if you have access to a content URL provided by {redhat} CDN or {
 The details you need for this procedure are:
 
 [[es-repos-manual]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .ES Custom Repository Settings
 |===
 | Option                 | Parameter

@@ -4,7 +4,7 @@
 The following table specifies the minimum requirements.
 // In this table, replace ``version`` with the version of the product you are using.
 
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Software and Hardware Requirements
 |===
 | Software and Hardware  | Recommended

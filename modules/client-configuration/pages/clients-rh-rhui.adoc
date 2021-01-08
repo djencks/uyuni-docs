@@ -128,7 +128,7 @@ You can only create custom versions of {redhat} repositories if you have the cor
 The details you need for this procedure are:
 
 [[redhat-rhui-repos-manual]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Red Hat Custom Repository Settings
 |===
 | Option                 | Setting
@@ -147,7 +147,7 @@ include::snippets/manual_repos.adoc[]
 The channels you need for this procedure are:
 
 [[redhat-rhui-channels-custom]]
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 .Red Hat Custom Channels
 |===
 | OS Version | Base Product          | Base Channel
@@ -187,7 +187,7 @@ ifeval::[{suma-content} == true]
 The products you need for this procedure are:
 
 [[redhat-rhui-channels-wizard]]
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 .Red Hat Products - WebUI
 |===
 | OS Version | Product Name
@@ -207,7 +207,7 @@ ifeval::[{uyuni-content} == true]
 The channels you need for this procedure are:
 
 [[redhat-rhui-channels-cli]]
-[cols="1,1,1,1", options="header"]
+[cols="1,1,1,1", options="header",separator=|]
 .Red Hat Channels - CLI
 |===
 

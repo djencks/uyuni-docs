@@ -111,7 +111,7 @@ ifeval::[{suma-content} == true]
 
 [[langcodes-suma]]
 .Available Language Codes
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Language code | Language   | Dialect
 | ``en_US``     | English    | United States
@@ -123,7 +123,7 @@ ifeval::[{uyuni-content} == true]
 
 [[langcodes-uyuni]]
 .Available Language Codes
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Language code | Language   | Dialect
 | ``bn_IN``     | Bangla     | India
@@ -172,7 +172,7 @@ web.theme_default = <THEME>
 
 [[webui-themes]]
 .Available WebUI Themes
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Theme Name            | Colors    | Style
 | ``susemanager-light`` | {susemgr} | Light

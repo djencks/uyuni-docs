@@ -5,7 +5,7 @@ The menu:Systems[Bootstrapping] section allows you to register a single Salt cli
 
 [[bootstrap-options]]
 .Bootstrap Options
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Option
 | Description

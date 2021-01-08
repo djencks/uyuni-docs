@@ -15,7 +15,7 @@ After you stop or restart the database, you need to restart the {productname} se
 
 [[smdba-options]]
 .Database Options
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 |===
 
 | Option

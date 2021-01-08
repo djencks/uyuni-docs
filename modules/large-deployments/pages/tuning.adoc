@@ -354,7 +354,7 @@ This section contains information about the available parameters.
 [[SSHMinionActionExecutor-parallel-threads]]
 === `SSHMinionActionExecutor.parallel_threads`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | Number of Taskomatic threads dedicated to sending commands to Salt SSH clients as a result of actions being executed.
 | Tune when            | xref:client-count[Client count] is in the hundreds.
@@ -517,7 +517,7 @@ If you see lines containing ``LOG:  temporary file:`` try raising this parameter
 [[pub-hwm]]
 === `pub_hwm`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The maximum number of outstanding messages sent by `salt-master`. If more than this number of messages need to be sent concurrently, communication with clients slows down, potentially resulting in timeout errors during load peaks.
 | Tune when            | xref:client-count[Client count] increases significantly and ``Salt request timed out. The master is not responding.`` errors appear when pinging minions during a load peak.
@@ -533,7 +533,7 @@ If you see lines containing ``LOG:  temporary file:`` try raising this parameter
 [[zmq-backlog]]
 === `zmq_backlog`
 
-[cols="1,1"]
+[cols="1,1",separator=|]
 |===
 | Description          | The maximum number of allowed client connections that have started but not concluded the opening process. If more than this number of clients connects in a very short time frame, connections are dropped and clients experience a delay re-connecting.
 | Tune when            | xref:client-count[Client count] increases significantly and very many clients reconnect in a short time frame, TCP connections to the `salt-master` process get dropped by the kernel.

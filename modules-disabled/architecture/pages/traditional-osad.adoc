@@ -73,7 +73,7 @@ Because [systemitem]``osad`` and [systemitem]``osa-dispatcher`` are run as servi
 Each OSAD component is configured by local configuration files.
 We recommend you keep the default configuration parameters for all OSAD components.
 
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 | Component                        | Location | Path to Configuration File
 | [systemitem]``osa-dispatcher``   | Server   | [path]``/etc/rhn/rhn.conf`` Section: [systemitem]``OSA configuration``

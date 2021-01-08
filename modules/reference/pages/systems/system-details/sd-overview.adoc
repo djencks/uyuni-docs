@@ -28,7 +28,7 @@ This section shows general information about the client.
 
 [[sdoverview-sysinfo-columns]]
 .System Info Columns
-[cols="1,1,1", options="header"]
+[cols="1,1,1", options="header",separator=|]
 |===
 
 | Column Name
@@ -108,7 +108,7 @@ This section shows the most recent system events for this client.
 
 [[sdoverview-sysevents-columns]]
 .System Events Columns
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 |===
 
 | Column Name
@@ -138,7 +138,7 @@ This section shows further information about the client.
 
 [[sdoverview-sysproperties-columns]]
 .System Properties Columns
-[cols="1,1", options="header"]
+[cols="1,1", options="header",separator=|]
 |===
 
 | Column Name
