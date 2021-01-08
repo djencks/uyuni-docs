@@ -125,7 +125,7 @@ content:
     # Select the branch you want to build
     # If you make changes on a branch and have the wrong branch selected you will not see your changes in your build
     branches:
-    - '.'
+    - HEAD
 
       # Modify the base ui depending on your publishing endpoint
       #
@@ -152,14 +152,14 @@ extensions:
     config:
       suppressHtml: false
       pdfFiles:
-#        - master@uyuni:administration:_administration-guide-pdf.adoc
-#        - master@uyuni:client-configuration:_client-configuration-guide-pdf.adoc
-#        - master@uyuni:installation:_installation-guide-pdf.adoc
-#        - master@uyuni:large-deployments:_large-deployments-guide-pdf.adoc
-#        - master@uyuni:quickstart-public-cloud:_quickstart-public-cloud-guide-pdf.adoc
-#        - master@uyuni:reference:_reference-guide-pdf.adoc
-#        - master@uyuni:retail:_retail-guide-pdf.adoc
-#        - master@uyuni:salt:_salt-guide-pdf.adoc
+        - master@uyuni:administration:_administration-guide-pdf.adoc
+        - master@uyuni:client-configuration:_client-configuration-guide-pdf.adoc
+        - master@uyuni:installation:_installation-guide-pdf.adoc
+        - master@uyuni:large-deployments:_large-deployments-guide-pdf.adoc
+        - master@uyuni:quickstart-public-cloud:_quickstart-public-cloud-guide-pdf.adoc
+        - master@uyuni:reference:_reference-guide-pdf.adoc
+        - master@uyuni:retail:_retail-guide-pdf.adoc
+        - master@uyuni:salt:_salt-guide-pdf.adoc
         - master@uyuni:upgrade:_upgrade-guide-pdf.adoc
 #      suspendServer: true
 
