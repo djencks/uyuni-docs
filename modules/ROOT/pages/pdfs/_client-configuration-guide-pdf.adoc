@@ -1,0 +1,9 @@
+= Client Configuration Guide: {productname} {productnumber}
+//include::./branding/pdf/entities.adoc[]
+:toc: auto
+:toclevels: 4
+:doctype: book
+:sectnums:
+:sectnumlevels: 5
+
+listToAinclude::client-configuration:nav$nav-client-configuration-guide.adoc[]

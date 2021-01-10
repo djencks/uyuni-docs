@@ -55,7 +55,7 @@ Download All PDFs icon:caret-right[] icon:file-archive[link="../susemanager-docs
 | xref:client-configuration:client-config-overview.adoc[Client Configuration Guide] | icon:file-pdf[link="../pdf/suse_manager_client-configuration_guide.pdf", window="_blank" role="green"]
 | xref:upgrade:upgrade-overview.adoc[Upgrade Guide] | icon:file-pdf[link="../pdf/suse_manager_upgrade_guide.pdf", window="_blank" role="green"]
 | xref:reference:reference-overview.adoc[Reference Guide]  | icon:file-pdf[link="../pdf/suse_manager_reference_guide.pdf", window="_blank" role="green"]
-| xref:administration:admin-overview.adoc[Administration Guide] | icon:file-pdf[link="../pdf/suse_manager_administration_guide.pdf", window="_blank" role="green"]
+| xref:administration:admin-overview.adoc[Administration Guide] | icon:file-pdf[link="{attachmentsdir}/pdfs/_administration_guide-pdf.pdf", window="_blank" role="green"]
 | xref:salt:salt-overview.adoc[Salt Guide]  | icon:file-pdf[link="../pdf/suse_manager_salt_guide.pdf", window="_blank" role="green"]
 | xref:retail:retail-overview.adoc[Retail Guide]  | icon:file-pdf[link="../pdf/suse_manager_retail_guide.pdf", window="_blank" role="green"]
 | xref:quickstart-public-cloud:qs-publiccloud-overview.adoc[Quick Start Guide - Public Cloud]  | icon:file-pdf[link="../pdf/suse_manager_quickstart-public-cloud_guide.pdf", window="_blank" role="green"]
@@ -80,15 +80,78 @@ Download All PDFs icon:caret-right[] icon:file-archive[link="../uyuni-docs_en-pd
 |===
 | View HTML | View PDF | View HTML | View PDF
 
-| xref:installation:install-overview.adoc[Installation Guide]                          | icon:file-pdf[link="../pdf/uyuni_installation_guide.pdf", window="_blank" role="green"]
-| xref:client-configuration:client-config-overview.adoc[Client Configuration Guide] | icon:file-pdf[link="../pdf/uyuni_client-configuration_guide.pdf", window="_blank" role="green"]
-| xref:upgrade:upgrade-overview.adoc[Upgrade Guide]                                 | icon:file-pdf[link="../pdf/uyuni_upgrade_guide.pdf", window="_blank" role="green"]
-| xref:reference:reference-overview.adoc[Reference Guide]                                        | icon:file-pdf[link="../pdf/uyuni_reference_guide.pdf", window="_blank" role="green"]
-| xref:administration:admin-overview.adoc[Administration Guide]                               | icon:file-pdf[link="../pdf/uyuni_administration_guide.pdf", window="_blank" role="green"]
-| xref:salt:salt-overview.adoc[Salt Guide]                                             | icon:file-pdf[link="../pdf/uyuni_salt_guide.pdf", window="_blank" role="green"]
-| xref:retail:retail-overview.adoc[Retail Guide]                                | icon:file-pdf[link="../pdf/uyuni_retail_guide.pdf", window="_blank" role="green"]
-| xref:quickstart-public-cloud:qs-publiccloud-overview.adoc[Quick Start Guide - Public Cloud]  | icon:file-pdf[link="../pdf/uyuni_quickstart-public-cloud_guide.pdf", window="_blank" role="green"]
-| xref:large-deployments:large-deployments-overview.adoc[Large Deployments Guide]  | icon:file-pdf[link="../pdf/uyuni_large-deployments_guide.pdf", window="_blank" role="green"]
+| xref:installation:install-overview.adoc[Installation Guide]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/installation_guide.pdf", window="_blank" role="green"]
+
+| xref:client-configuration:client-config-overview.adoc[Client Configuration Guide]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/client-configuration-guide-pdf.pdf", window="_blank" role="green"]
+
+
+| xref:upgrade:upgrade-overview.adoc[Upgrade Guide]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/upgrade-guide-pdf.pdf", window="_blank" role="green"]
+
+| xref:reference:reference-overview.adoc[Reference Guide]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/reference-guide-pdf.pdf", window="_blank" role="green"]
+
+
+| xref:administration:admin-overview.adoc[Administration Guide]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/administration-guide-pdf.pdf", window="_blank" role="green"]
+
+| xref:salt:salt-overview.adoc[Salt Guide]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/salt-guide-pdf.pdf", window="_blank" role="green"]
+
+
+| xref:retail:retail-overview.adoc[Retail Guide]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/retail-guide-pdf.pdf", window="_blank" role="green"]
+
+| xref:quickstart-public-cloud:qs-publiccloud-overview.adoc[Quick Start Guide - Public Cloud]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/quickstart-public-cloud-guide-pdf.pdf", window="_blank" role="green"]
+
+
+| xref:large-deployments:large-deployments-overview.adoc[Large Deployments Guide]
+| icon:file-pdf[link="{attachmentsdir}/pdfs/large-deployments-guide-pdf.pdf", window="_blank" role="green"]
+
+| |
+
+//| Architecture               | xref:architecture:architecture-intro.adoc[HTML] link:../pdf/suse_manager_architecture.pdf[PDF]
+|===
+
+The icons aren't showing, so here are the new pdfs as text links
+[cols="<, ^,<,^", options="header",separator=|]
+|===
+| View HTML | View PDF | View HTML | View PDF
+
+| xref:installation:install-overview.adoc[Installation Guide]
+| link:{attachmentsdir}/pdfs/installation-guide-pdf.pdf[I, window="_blank" role="green"]
+
+| xref:client-configuration:client-config-overview.adoc[Client Configuration Guide]
+| link:{attachmentsdir}/pdfs/client-configuration-guide-pdf.pdf[CC, window="_blank" role="green"]
+
+
+| xref:upgrade:upgrade-overview.adoc[Upgrade Guide]
+| link:{attachmentsdir}/pdfs/upgrade-guide-pdf.pdf[U, window="_blank" role="green"]
+
+| xref:reference:reference-overview.adoc[Reference Guide]
+| link:{attachmentsdir}/pdfs/reference-guide-pdf.pdf[Ref, window="_blank" role="green"]
+
+
+| xref:administration:admin-overview.adoc[Administration Guide]
+| link:{attachmentsdir}/pdfs/administration-guide-pdf.pdf[A, window="_blank" role="green"]
+
+| xref:salt:salt-overview.adoc[Salt Guide]
+| link:{attachmentsdir}/pdfs/salt-guide-pdf.pdf[S, window="_blank" role="green"]
+
+
+| xref:retail:retail-overview.adoc[Retail Guide]
+| link:{attachmentsdir}/pdfs/retail-guide-pdf.pdf[R, window="_blank" role="green"]
+
+| xref:quickstart-public-cloud:qs-publiccloud-overview.adoc[Quick Start Guide - Public Cloud]
+| link:{attachmentsdir}/pdfs/quickstart-public-cloud-guide-pdf.pdf[QPC, window="_blank" role="green"]
+
+| xref:large-deployments:large-deployments-overview.adoc[Large Deployments Guide]
+| link:{attachmentsdir}/pdfs/large-deployments-guide-pdf.pdf[LD, window="_blank" role="green"]
+
+
 | |
 
 //| Architecture               | xref:architecture:architecture-intro.adoc[HTML] link:../pdf/suse_manager_architecture.pdf[PDF]

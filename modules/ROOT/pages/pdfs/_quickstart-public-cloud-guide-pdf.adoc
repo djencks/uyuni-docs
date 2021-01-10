@@ -1,0 +1,9 @@
+= Quickstart Public Cloud Guide: {productname} {productnumber}
+//include::./branding/pdf/entities.adoc[]
+:toc: auto
+:toclevels: 4
+:doctype: book
+:sectnums:
+:sectnumlevels: 5
+
+listToAinclude::quickstart-public-cloud:nav$nav-quickstart-public-cloud-guide.adoc[]

@@ -1,0 +1,9 @@
+= Reference Guide: {productname} {productnumber}
+//include::./branding/pdf/entities.adoc[]
+:toc: auto
+:toclevels: 4
+:doctype: book
+:sectnums:
+:sectnumlevels: 5
+
+listToAinclude::reference:nav$nav-reference-guide.adoc[]
