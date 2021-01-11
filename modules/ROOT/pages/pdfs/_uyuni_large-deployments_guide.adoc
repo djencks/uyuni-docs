@@ -1,5 +1,6 @@
 = Large Deployments Guide: {productname} {productnumber}
 //include::./branding/pdf/entities.adoc[]
+:doctitle: Large Deployments Guide: {productname} {productnumber}
 :toc: auto
 :toclevels: 4
 :doctype: book

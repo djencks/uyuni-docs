@@ -1,5 +1,6 @@
 = Quickstart Public Cloud Guide: {productname} {productnumber}
 //include::./branding/pdf/entities.adoc[]
+:doctitle: Quickstart Public Cloud Guide: {productname} {productnumber}
 :toc: auto
 :toclevels: 4
 :doctype: book

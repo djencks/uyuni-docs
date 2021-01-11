@@ -152,23 +152,23 @@ extensions:
     config:
       suppressHtml: false
       pdfFiles:
-#        - master@uyuni:administration:_administration-guide-pdf.adoc
-#        - master@uyuni:client-configuration:_client-configuration-guide-pdf.adoc
-#        - master@uyuni:installation:_installation-guide-pdf.adoc
-#        - master@uyuni:large-deployments:_large-deployments-guide-pdf.adoc
-#        - master@uyuni:quickstart-public-cloud:_quickstart-public-cloud-guide-pdf.adoc
-#        - master@uyuni:reference:_reference-guide-pdf.adoc
-#        - master@uyuni:retail:_retail-guide-pdf.adoc
-#        - master@uyuni:salt:_salt-guide-pdf.adoc
-#        - master@uyuni:upgrade:_upgrade-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_administration-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_client-configuration-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_installation-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_large-deployments-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_quickstart-public-cloud-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_reference-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_retail-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_salt-guide-pdf.adoc
-        - master@uyuni:ROOT:pdfs/_upgrade-guide-pdf.adoc
+#        - master@uyuni:administration:_uyuni_administration_guide.adoc
+#        - master@uyuni:client-configuration:_uyuni_client-configuration_guide.adoc
+#        - master@uyuni:installation:_uyuni_installation_guide.adoc
+#        - master@uyuni:large-deployments:_uyuni_large-deployments_guide.adoc
+#        - master@uyuni:quickstart-public-cloud:_uyuni_quickstart-public-cloud_guide.adoc
+#        - master@uyuni:reference:_uyuni_reference_guide.adoc
+#        - master@uyuni:retail:_uyuni_retail_guide.adoc
+#        - master@uyuni:salt:_uyuni_salt_guide.adoc
+#        - master@uyuni:upgrade:_uyuni_upgrade_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_administration_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_client-configuration_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_installation_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_large-deployments_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_quickstart-public-cloud_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_reference_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_retail_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_salt_guide.adoc
+        - master@uyuni:ROOT:pdfs/_uyuni_upgrade_guide.adoc
 #      suspendServer: true
 
